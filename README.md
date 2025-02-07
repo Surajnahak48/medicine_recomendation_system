@@ -1,16 +1,62 @@
-# Personalized-Medical-Recommendation-System-with-Machine-Learning
-Welcome to our cutting-edge Personalized Medical Recommendation System, a powerful platform designed to assist users in understanding and managing their health. Leveraging the capabilities of machine learning, our system analyzes user-input symptoms to predict potential diseases accurately. Here's what sets our system apart:
+# Medicine Recommendation System
 
-User-Friendly Interface: Our intuitive interface allows users to input their symptoms effortlessly, creating a seamless user experience.
+## Overview
+The **Medicine Recommendation System** is a machine learning-based web application designed to predict diseases based on user-input symptoms. It provides detailed descriptions of predicted diseases and recommends relevant medications, precautions, diet plans, and workouts.
 
-Advanced Machine Learning Models: We've integrated state-of-the-art machine learning models that accurately predict diseases based on input symptoms, ensuring reliable and precise results.
+## Features
+<!-- - Accepts user symptoms in natural language (e.g., "continuous sneezing" instead of "continuous_sneezing"). -->
+- Uses a trained machine learning model for disease prediction.
+- Provides disease descriptions and recommended precautions.
+- Suggests suitable medications, dietary plans, and workouts.
+- User-friendly web interface built using Flask.
 
-Tailored Recommendations: Receive personalized recommendations for the top 5 medicines, prescription details, and even workout routines based on the predicted disease.
+## Installation
+### Prerequisites
+Ensure you have Python installed on your system.
 
-Flask App Integration: The entire system is powered by a Flask web application, making it easily accessible to users. Experience the convenience of accessing healthcare recommendations from anywhere.
+### Steps
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Surajnahak48/medicine_recomendation_system.git
+   cd medicine-recommendation-system
+   ```
+2. Install required dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the Flask application:
+   ```sh
+   python main.py
+   ```
+4. Open your browser and go to:
+   ```sh
+   http://127.0.0.1:5000/
+   ```
 
-Privacy and Security: We prioritize user privacy and data security. Your health information is handled with the utmost confidentiality, adhering to the highest industry standards.
+## How to Use
+1. Enter symptoms separated by commas (e.g., `itching, skin rash, nodal skin eruptions`).
+2. Click on the **Predict** button.
+3. View the predicted disease, its description, and the recommended treatment options.
 
-Continuous Improvement: Our system is designed for continuous improvement. As we gather more data, the machine learning models evolve, providing increasingly accurate and relevant recommendations.
+## Project Structure
+```
+medicine-recommendation-system/
+│-- datasets/            # Contains symptom-disease datasets
+│-- models/              # Trained machine learning model
+│-- templates/           # HTML templates for Flask
+│-- main.py              # Flask web application
+│-- requirements.txt     # Dependencies
+│-- README.md            # Documentation
+```
 
-Take charge of your health with our Personalized Medical Recommendation System. Your well-being is our priority, and we're dedicated to providing you with the tools and insights you need for a healthier, happier life.
+## Contributing
+You are welcome to contribute by:
+- Adding more symptoms and diseases to the dataset.
+- Improving UI/UX for better user experience.
+- Enhancing machine learning model accuracy.
+
+## License
+This project is licensed under the MIT License.
+
+---
+**Author:** Your Name
