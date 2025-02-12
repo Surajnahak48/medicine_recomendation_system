@@ -59,4 +59,4 @@ You are welcome to contribute by:
 This project is licensed under the MIT License.
 
 ---
-**Author:** Suraj Nahak
+**Author:** Your Name
