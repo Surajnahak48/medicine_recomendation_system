@@ -13,6 +13,7 @@ The **Medicine Recommendation System** is a machine learning-based web applicati
 ## Installation
 ### Prerequisites
 Ensure you have Python installed on your system.
+install requirements.txt file for install required packages.
 
 ### Steps
 1. Clone the repository:
@@ -59,4 +60,4 @@ You are welcome to contribute by:
 This project is licensed under the MIT License.
 
 ---
-**Author:** Your Name
+**Author:** Suraj Nahak

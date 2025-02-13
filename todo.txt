@@ -1,0 +1,2 @@
+In Future Developing a fully AI based application. Which is capable for predict all the disease, like brain tumer,
+diabities, and many more.
