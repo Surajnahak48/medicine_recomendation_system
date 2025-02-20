@@ -1,5 +1,6 @@
 python
 .vscode
 .ipynb_checkpoints
+chatbot_model
 venv
 
