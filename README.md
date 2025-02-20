@@ -44,6 +44,7 @@ install requirements.txt file for install required packages.
 medicine-recommendation-system/
 │-- datasets/            # Contains symptom-disease datasets
 │-- models/              # Trained machine learning model
+|-- notebooks/           # Jupyter notebook 
 │-- templates/           # HTML templates for Flask
 │-- main.py              # Flask web application
 │-- requirements.txt     # Dependencies
