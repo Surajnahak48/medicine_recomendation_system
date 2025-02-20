@@ -3,6 +3,9 @@
 ## Overview
 The **Medicine Recommendation System** is a machine learning-based web application designed to predict diseases based on user-input symptoms. It provides detailed descriptions of predicted diseases and recommends relevant medications, precautions, diet plans, and workouts.
 
+## Application Link
+https://medicine-recomendation-system-e3h1.onrender.com
+
 ## Features
 <!-- - Accepts user symptoms in natural language (e.g., "continuous sneezing" instead of "continuous_sneezing"). -->
 - Uses a trained machine learning model for disease prediction.
