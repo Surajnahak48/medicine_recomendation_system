@@ -45,7 +45,6 @@ medicine-recommendation-system/
 │-- datasets/            # Contains symptom-disease datasets
 │-- models/              # Trained machine learning model
 │-- templates/           # HTML templates for Flask
-|-- notebooks/           # Jupyter notebook files
 │-- main.py              # Flask web application
 │-- requirements.txt     # Dependencies
 │-- README.md            # Documentation
